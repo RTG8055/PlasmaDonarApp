@@ -3,8 +3,8 @@ from flask import Flask, render_template, redirect
 app = Flask(__name__)
 
 
-# app.secret_key = '8bf9547569cd5a638931a8639cf9f86237931e92'
-#
+app.secret_key = '8bf9547569cd5a638931a8640cf9f86237931e92'
+
 # databaseName = 'example6.db'
 # itemsTable = 'items'
 # debtorsTable = 'debtors'
