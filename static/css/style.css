@@ -244,7 +244,7 @@ img {
 }
 /*----------------------------------------body-styles---------------------------------------*/
 #body div {
-	background: url(../images/bg-transparent2.png) repeat;
+	background: url(../images/background2.jpg) repeat;
 	margin: 0 auto;
 	max-width: 960px;
 	overflow: hidden;
@@ -350,6 +350,14 @@ img {
 	padding: 72px 0 0;
 	width: 100%;
 }
+
+.image-blurred-edge {
+    width: 200px;
+    height: 200px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px black inset;
+}
+
 #body div ul.gallery li {
 	border: none;
 	float: left;
@@ -382,7 +390,7 @@ img {
 	margin: 0 auto 15px;
 	padding: 18px 0 0;
 	text-align: center;
-	width: 611px;
+	width: 90%;
 }
 #body div h3 span {
 	background: url(../images/bg-border1.gif) no-repeat center bottom;
@@ -416,7 +424,7 @@ img {
 #body div ul li img {
 	display: block;
 	float: left;
-	margin: 0 28px 0 0;
+	margin: 0 0 0 0;
 	padding: 0;
 	width: auto;
 }
@@ -427,7 +435,7 @@ img {
 	max-width: none;
 	overflow: hidden;
 	padding: 6px 0 0;
-	width: 522px;
+	width: 750px;
 }
 #body div ul li div h1 {
 	background: none;

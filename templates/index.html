@@ -5,22 +5,35 @@ Plasma Donation Drive
 {% endblock %}
 
 {% block body %}
-<div id="body" class="home">
-			<div class="header">
-				<div>
-					<h1>Donate<br>COVID-19 Plasma Required</h1>
-                    <span><a href="/contact" class="email">Contact Us</a></span>
-					<img src="images/runner.png" alt="">
-				</div>
+		<div id="body" class="running">
+			<div>
+                <h1>Donating Plasma in 3 easy steps</h1><br>
+                <ul class="gallery">
+					<li>
+{#                        <div class="image-blurred-edge" style="background-image: {{ url_for('static', filename='images/donate-requirement1.jpeg') }}"></div>#}
+                        <a href="/home"><img src="{{ url_for('static', filename='images/donate-requirement1.jpeg') }}" alt=""></a>
+					</li>
+					<li>
+                        <a href="/home"><img src="{{ url_for('static', filename='images/donate-requirement2.jpeg') }}" alt=""></a>
+					</li>
+					<li>
+                        <a href="/faq"><img src="{{ url_for('static', filename='images/donate-requirement3.jpeg') }}" alt=""></a>
+					</li>
+				</ul>
+                <h3><span>
+                    You may qualify to donate plasma for corona virus patients if you meet specific convalescent plasma and regular blood donation eligibility requirements
+                </span></h3>
+                <p>● As a donor, you will have to register on the google form<br>
+                ● You will be contacted by the local medical team to see if you are still interested in donating
+                plasma and explain the precautions and risks in detail.<br>
+● You will be required to show the positive COVID-19 laboratory test result and if possible, a follow
+    up test that is negative. Also you must have been symptom free for 14 days.<br>
+● The Rotary Challa blood bank van has standard disinfection and sanitization process in place for
+    your safety purposes and will be at your place as per agreed convenient time from ______. <br>
+                   ● A blood test will be done to screen you for safe plasma donation.<br>
+● The collected blood will be transported to the blood bank. Your plasma is now ready to save a
+life!</p>
 			</div>
-			<div class="body">
-				<div>
-					<h1>WINNING</h1>
-					<p>What’s more, they’re absolutely free! You can do a lot with them. You can modify them.</p>
-					<a href="blog.html" class="more">Read More</a>
-				</div>
-			</div>
-
         </div>
 
 

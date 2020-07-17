@@ -22,9 +22,9 @@ def hello_world():
     print __name__
     return showWebPage('index.html', vars={"home":"selected"})
 
-@app.route('/donar')
+@app.route('/donor')
 def donar():
-    return showWebPage('donar.html',vars={"donar":"selected"})
+    return showWebPage('donor.html',vars={"donar":"selected"})
 
 
 @app.route('/patient')
@@ -36,6 +36,10 @@ def patient():
 def contact():
     return showWebPage('contact.html',vars={"contact":"selected"})
 
+
+@app.route('/faq')
+def faq():
+    return showWebPage('faq.html',vars={"faq":"selected"})
 
 @app.errorhandler(404)
 def page_not_found(e):
