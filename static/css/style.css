@@ -128,7 +128,7 @@ img {
 #body.home div.header div span {
 	display: block;
 	margin: 0 auto 52px;
-	max-width: 350px;
+	max-width: 450px;
 	overflow: hidden;
 	padding: 0;
 	width: 37.4583%;
@@ -244,7 +244,8 @@ img {
 }
 /*----------------------------------------body-styles---------------------------------------*/
 #body div {
-	background: url(../images/background2.jpg) repeat;
+	background: url(../images/grey-bg3.jpg);
+	background-repeat: round;
 	margin: 0 auto;
 	max-width: 960px;
 	overflow: hidden;
@@ -269,7 +270,7 @@ img {
 	display: block;
 	margin: 68px auto 47px;
 	padding: 0;
-	width: auto;
+	width: 90%;
 }
 #body.runningsinglepost div img {
 	display: block;
@@ -347,7 +348,7 @@ img {
 	list-style: none outside none;
 	margin: 0 0 76px;
 	max-width: none;
-	padding: 72px 0 0;
+	padding: 10px 0 0;
 	width: 100%;
 }
 
@@ -375,8 +376,9 @@ img {
 	display: block;
 	float: none;
 	margin: 0 auto;
+	margin-top: 15px;
 	padding: 0;
-	width: auto;
+	width: 90%;
 }
 #body div h3 {
 	background: url(../images/bg-border1.gif) no-repeat center top;
