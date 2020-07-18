@@ -36,6 +36,9 @@ def patient():
 def contact():
     return showWebPage('contact.html',vars={"contact":"selected"})
 
+@app.route('/about')
+def about():
+    return showWebPage('about.html',vars={"about":"selected"})
 
 @app.route('/faq')
 def faq():
