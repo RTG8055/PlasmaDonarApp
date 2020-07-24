@@ -10357,7 +10357,7 @@ button.owl-next {
   -ms-transition: 0.3s ease-in; }
 
 .w3l-main-slider .banner-view {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/be_a_hero.jpg) no-repeat center;
   background-size: cover;
   min-height: 700px;
   position: relative;
@@ -10370,7 +10370,7 @@ button.owl-next {
   background-size: cover; }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/banner3.jpg) no-repeat center;
+  background: url(../images/banner_3.jpg) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top3 {
@@ -11316,7 +11316,7 @@ p.stats-text {
 
 .w3l-about-breadcrumb .breadcrumb-bg-about {
   background-size: cover;
-  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/breadcrumbbg.jpg);
+  background-image: linear-gradient(to right, #17449e, rgba(26, 35, 129, 0.6)), url(../images/header_1.jpeg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed; }
