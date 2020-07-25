@@ -38,6 +38,9 @@ Author URL: http://w3layouts.com
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home</a>
           </li>
+         <li class="nav-item">
+            <a class="nav-link" href="DonationForm.html">Donors</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="PatientForm.html">Patients</a>
           </li>
@@ -87,7 +90,10 @@ Author URL: http://w3layouts.com
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
+               <li class="nav-item">
+            <a class="nav-link" href="DonationForm.html">Donors</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="PatientForm.html">Patients</a>
           </li>
                 <li class="nav-item">
@@ -147,10 +153,21 @@ Author URL: http://w3layouts.com
             <div class="row">
               <p style="color: #fff; font-size: 10pt;"><i>*<b></b>Disclaimer:</b> Your information will only be shared with the parent organisation associated blood bank who can take your donation and with no one else.</i></p>
             </div>
-              <div class="row">
-                  <div class="col-md-12">
+            <div class="row" style="margin: auto;">
+            <button class="btn btn-style btn-style-outline mt-sm-5 mt-4" onclick="changeForm('telugu')">Telugu</button>
+            <button class="btn btn-style btn-style-outline mt-sm-5 mt-4" onclick="changeForm('hindi')">Hindi</button>
+            <button class="btn btn-style btn-style-outline mt-sm-5 mt-4" onclick="changeForm('english')">English</button>
+          </div>
+            <div class="row">
+                  <div class="col-md-12" id="toggle-english">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeU72GotGQfoHhIaPPd33vnUMT3aAnKunMNymYxTD2kIunaWA/viewform?embedded=true" width="100%" height="5712" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                   </div>
+                <div class="col-md-12" id="toggle-hindi" style="display: none;">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScYxZyzwZj9gI-hsLZ0c9cqGrObn929H2wqqVM4urUkgl6_Ew/viewform?embedded=true" width="100%" height="5712" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+                <div class="col-md-12" id="toggle-telugu" style="display: none;">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDQmZHfWQ9lxTB1V2_aywNjMs_BRShRQT0E1PXabxzDq0OSw/viewform?embedded=true" width="100%" height="5712" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
               </div>
           </div>
       </div>
@@ -303,7 +320,7 @@ Author URL: http://w3layouts.com
   <!-- disable body scroll which navbar is in active -->
 
     <script src="assets/js/bootstrap.min.js"></script>
-
+    <script src="assets/js/form.js"></script>
     </body>
 
     </html>
