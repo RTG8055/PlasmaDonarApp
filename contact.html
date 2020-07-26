@@ -149,7 +149,7 @@ Author URL: http://w3layouts.com
     <div class="breadcrumb-bg breadcrumb-bg-contact py-5">
       <div class="container py-lg-5 py-md-3">
         <h2>Contact Us</h2>
-        <p>Get Intouch with us</p>
+        <p>Get in touch with us</p>
       </div>
     </div>
   </section>
@@ -159,14 +159,14 @@ Author URL: http://w3layouts.com
     <h3 class="title mb-4">Drop Us a Message</h3>
     <div class="row">
       <div class="col-md-8 contact-form">
-        <form action="https://sendmail.w3layouts.com/submitForm" method="post">
-          <input type="text" class="form-control" name="w3lName" placeholder="Name" /><br />
-          <input type="email" class="form-control" name="w3lSender" placeholder="E-mail" /><br />
-          <input type="text" class="form-control" name="w3lSubject" placeholder="Subject" /><br />
-          <textarea class="form-control" name="w3lMessage" placeholder="Your Message"
+        <form id="contact-form">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Name" /><br />
+          <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" /><br />
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" /><br />
+          <textarea class="form-control" id="message" name="message" placeholder="Your Message"
             style="height:150px;"></textarea><br />
           <div class="">
-            <button class="btn btn-primary btn-style" type="submit">Submit now</button>
+            <button class="btn btn-primary btn-style" type="submit">Send</button>
           </div>
         </form>
       </div>
@@ -336,6 +336,33 @@ Author URL: http://w3layouts.com
     });
   </script>
   <!-- disable body scroll which navbar is in active -->
+
+  <script src="assets/js/jquery.min.js"></script>
+
+  <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('#contact-form').submit(function(event) {
+                event.preventDefault();
+                $.post("http://kozzykids.com/bhawesh_send_email.php", {
+                    name: $('#name').val(),
+                    email: $('#email').val(),
+                    phone: $('#phone').val(),
+                    message: $('#message').val(),
+                    to_email: 'vkrahulagarwal@gmail.com'
+                },
+                function(data, status) {
+                    console.log(data + status);
+                    if (status == "success") {
+                        $('#contact-form').trigger("reset");
+                        alert("Thank you for contacting us. We'll reach out to your shortly!");
+                    }
+                    else {
+                        alert("Sorry, couldn't send your message. Please try again later.");
+                    }
+                });
+            });
+        });
+    </script>
 
     <script src="assets/js/bootstrap.min.js"></script>
 
