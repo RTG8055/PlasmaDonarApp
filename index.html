@@ -202,34 +202,36 @@ Author URL: http://w3layouts.com
 </section>
 
 <section class="w3l-counter-6">
-    <!-- /counter-6 -->
-    <div class="conuter-66-info py-5">
-        <div class="container py-lg-5">
-            <h3 class="title text-center mb-4">3 Easy Steps to Donate</h3>
-            <!--<p class="title-text text-center">An initiative of Hyderabad Deccan COVID CRUSADERS, in association with the Rotary-Challa Blood Bank, supported by the Rotary Club of Hyderabad Deccan</p> -->
-            <div class="counter-grids-info row text-center" style="padding-top: 10px;">
-                <div class="col-lg-4 col-6">
-                    <div class="counter-gd">
+    <div class="call-w3 conuter-66-info py-5">
+        <div class="container">
+            <!--<div class=" main-cont-wthree-2"> -->
+                <div class="left-contect-calls text-center">
+                    <h3 class="title mb-sm-5 mb-4">3 Easy Steps to Donate</h3>
+                  <div class="row">
+                      <div class="col-md-4">
+                        <div class="counter-gd" style="padding-right: 30px;padding-left: 30px">
                         <img src="assets/images/list.png" class="img-fluid">
                         <p>1. Fill the donor form</p><br>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6">
-                    <div class="counter-gd">
+                      </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="counter-gd" style="padding-right: 30px;padding-left: 30px">
                         <img src="assets/images/Doctor-call.png" class="img-fluid">
-                        <p>2. Our medical team will contact you</p><br>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-6">
-                    <div class="counter-gd">
+                        <p>2. Our medical team will contact you</p>
+                      </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="counter-gd" style="padding-right: 30px;padding-left: 30px">
                         <img src="assets/images/van.png" class="img-fluid">
-                        <p>3. Donate plasma</p>
-                    </div>
+                        <p>3. Donate plasma</p><br>
+                      </div>
+                      </div>
+                  </div>
                 </div>
-            </div>
+          <!-- </div> -->
         </div>
     </div>
-</section> 
+</section>
   <!-- w3l-features-photo-7 -->
   <section class="w3l-features-photo-7 py-5">
       <div class="w3l-features-photo-7_sur py-lg-5 py-sm-3">
@@ -304,12 +306,18 @@ Author URL: http://w3layouts.com
                   <li><p class="para-apply"><!--The Rotary Challa blood bank van has standard disinfection and sanitization process in place for your safety purposes and will be at your place as per agreed convenient time from ______. -->A blood test will be done for screening of safe plasma donation and collected.</p></li>
                   <li><p class="para-apply">We will arrange for your blood donation. Your plasma is now read to save a life!</p></li>
                 </ul>
-                    <button class="btn btn-style btn-style-outline mt-sm-5 mt-4" onclick="changeForm('telugu')">తెలుగు</button>
-                    <button class="btn btn-style btn-style-outline mt-sm-5 mt-4" onclick="changeForm('hindi')">हिन्दी</button>
-                    <button class="btn btn-style btn-style-outline mt-sm-5 mt-4" onclick="changeForm('english')">English</button>
+                    
 				</div>
 				<div class="apply-gd-right offset-lg-1 col-lg-7 mt-lg-0 mt-5">
 					<div class="apply-form p-4">
+            <p style="color: #000;text-align: center;">
+              <!--<strong>Language: </strong> -->
+              <button class="btn" style="width: auto;padding: 7px;" onclick="changeForm('telugu')">తెలుగు</button>
+              <button class="btn" style="width: auto;padding: 7px;" onclick="changeForm('hindi')">हिन्दी</button>
+              <button class="btn" style="width: auto;padding: 7px;" onclick="changeForm('english')">English</button>
+            </p>
+            
+                    
 						<h5 class="p-4" style="margin-bottom: 0"><a href="DonationForm.html">Donation Form</a></h5>
            <!-- <div style="display: inline;">
               <p style="color: #000;">Language:</p>
@@ -450,6 +458,9 @@ Author URL: http://w3layouts.com
     <!-- //video popup -->
 
     <script src="assets/js/owl.carousel.js"></script>
+
+
+
     <!-- script for banner slider-->
     <script>
       $(document).ready(function () {
@@ -458,10 +469,10 @@ Author URL: http://w3layouts.com
           margin: 0,
           nav: false,
           responsiveClass: true,
-          autoplay: false,
-          autoplayTimeout: 5000,
+          autoplay: true,
+          autoplayTimeout: 3000,
           autoplaySpeed: 1000,
-          autoplayHoverPause: false,
+          autoplayHoverPause: true,
           responsive: {
             0: {
               items: 1,
