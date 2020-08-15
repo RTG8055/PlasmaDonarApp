@@ -10572,6 +10572,10 @@ a.social-link.linkedin {
 a.social-link.tumblr {
   background: #35465c; }
 
+a.social-link.facebook {
+  background: #3a5998;
+}
+
 ul.icon-rounded.address li p a {
   font-weight: 600; }
 
