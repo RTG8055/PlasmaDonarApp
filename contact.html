@@ -27,6 +27,7 @@ Author URL: http://w3layouts.com
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
 <section class="w3l-bootstrap-header">
@@ -147,8 +148,9 @@ Author URL: http://w3layouts.com
             <h5 class="widget-title">Follow Us</h5>
             <ul class="icon-rounded">
               <li><a class="social-link twitter" href="#url" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="social-link linkedin" href="#url" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="social-link tumblr" href="#url" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+              <li><a class="social-link linkedin" href="https://www.linkedin.com/company/plasmaforyou/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="social-link facebook" href="https://www.facebook.com/plasmaforyou" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+              <li><a href="https://www.instagram.com/plasmaforyou/" target="_blank"><img height="36" width="36" src="assets/images/insta.png"></a></li>
             </ul>
           </div>
 
@@ -163,7 +165,7 @@ Author URL: http://w3layouts.com
 <!-- //Domain modal -->
 <section class="w3l-about-breadcrumb">
     <div class="breadcrumb-bg breadcrumb-bg-contact py-5">
-      <div class="container py-lg-5 py-md-3">
+      <div data-aos="fade-in" data-aos-delay=0 data-aos-suration=500 class="container py-lg-5 py-md-3">
         <h2>Contact Us</h2>
         <p>Get in touch with us</p>
       </div>
@@ -172,21 +174,21 @@ Author URL: http://w3layouts.com
 <!-- Contact section -->
 <section class="w3l-contact py-5" id="contact">
   <div class="container py-lg-3">
-    <h3 class="title mb-4">Drop Us a Message</h3>
+    <h3 data-aos="fade-down" data-aos-delay=0 data-aos-suration=500 class="title mb-4">Drop Us a Message</h3>
     <div class="row">
       <div class="col-md-8 contact-form">
         <form id="contact-form">
-          <input type="text" class="form-control" id="name" name="name" placeholder="Name" /><br />
-          <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" /><br />
-          <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" /><br />
-          <textarea class="form-control" id="message" name="message" placeholder="Your Message"
+          <input data-aos="fade-up" data-aos-delay=100 data-aos-suration=500 type="text" class="form-control" id="name" name="name" placeholder="Name" /><br />
+          <input data-aos="fade-up" data-aos-delay=300 data-aos-suration=500 type="email" class="form-control" id="email" name="email" placeholder="E-mail" /><br />
+          <input data-aos="fade-up" data-aos-delay=500 data-aos-suration=500 type="text" class="form-control" id="phone" name="phone" placeholder="Phone" /><br />
+          <textarea data-aos="fade-up" data-aos-delay=700 data-aos-suration=500 class="form-control" id="message" name="message" placeholder="Your Message"
             style="height:150px;"></textarea><br />
           <div class="">
-            <button class="btn btn-primary btn-style" type="submit">Send</button>
+            <button data-aos="fade-in" data-aos-delay=700 data-aos-suration=500 class="btn btn-primary btn-style" type="submit">Send</button>
           </div>
         </form>
       </div>
-      <div class="col-md-4 mt-md-0 mt-5 w3-contact-address">
+      <div data-aos="fade-left" data-aos-delay=200 data-aos-suration=500 class="col-md-4 mt-md-0 mt-5 w3-contact-address">
         <b>Address:</b>
         <p> 7-1-71/A/1, Dharam Karam Road,<br>Ameerpet, Hyderabad, Telangana<br>Pincode: 500016</p>
         <br />
@@ -203,7 +205,7 @@ Author URL: http://w3layouts.com
 <!-- //Contact section -->
 
 <!-- map -->
-<div class="map">
+<div data-aos="fade-in" data-aos-delay=0 data-aos-suration=500 class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4177216458797!2d78.44838141532217!3d17.439709705883256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c62074a679%3A0x760053816cc05c8b!2sChalla%20Multi%20Speciality%20Hospital!5e0!3m2!1sen!2sin!4v1595618323287!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 <!-- //map -->
@@ -381,7 +383,10 @@ Author URL: http://w3layouts.com
     </script>
 
     <script src="assets/js/bootstrap.min.js"></script>
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     </body>
 
     </html>

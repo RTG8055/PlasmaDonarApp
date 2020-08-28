@@ -27,6 +27,7 @@ Author URL: http://w3layouts.com
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
 <section class="w3l-bootstrap-header">
@@ -144,8 +145,9 @@ Author URL: http://w3layouts.com
             <h5 class="widget-title">Follow Us</h5>
             <ul class="icon-rounded">
               <li><a class="social-link twitter" href="#url" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="social-link linkedin" href="#url" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="social-link tumblr" href="#url" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+              <li><a class="social-link linkedin" href="https://www.linkedin.com/company/plasmaforyou/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="social-link facebook" href="https://www.facebook.com/plasmaforyou" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+              <li><a href="https://www.instagram.com/plasmaforyou/" target="_blank"><img height="36" width="36" src="assets/images/insta.png"></a></li>
             </ul>
           </div>
 
@@ -161,16 +163,16 @@ Author URL: http://w3layouts.com
 <section class="w3l-about-breadcrumb">
     <div class="breadcrumb-bg breadcrumb-bg-contact py-5">
       <div class="container py-lg-5 py-md-3">
-        <h2>Frequently Asked Questions</h2>
+        <h2 data-aos="fade-in" data-aos-delay=0 data-aos-duration=1000>Frequently Asked Questions</h2>
       </div>
     </div>
   </section>
 <!-- Contact section -->
 <section class="w3l-contact py-5" id="contact">
   <div class="container py-lg-3">
-    <div class="row">
+  <!-- <div class="row">
       <div class="col-md-12 mt-md-0 mt-5">
-        <div class="col-md-12">
+        <div data-aos="fade-right" data-aos-delay=0 data-aos-suration=500 class="col-md-12">
           <h4>Are there any risks to my health?</h4>
           <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure they are good candidates.</p>
         </div>
@@ -266,8 +268,10 @@ Author URL: http://w3layouts.com
         </div>
         <hr>
       </div>
-    </div>
-    <!--<div class="row">
+    </div> -->
+
+    <!-- ACCORDION -->
+    <div class="row">
       <div class="panel-group col-md-12" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -285,12 +289,12 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">&#9662;&nbsp;What is involved in plasma donation?</a>
             </h4>
           </div>
           <div id="collapse2" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>To donate plasma for use in COVID-19 patients, you must have been sick with COVID-19 and completely recovered. You should have been free of symptoms for two weeks.</p>
             </div>
           </div>
         </div>
@@ -298,12 +302,12 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">&#9662;&nbsp;What is Plasma and why is it collected?</a>
             </h4>
           </div>
           <div id="collapse3" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>Plasma is the clear liquid portion of blood that remains after blood cells, platelets, and other cellular components are removed. It contains water, salts, antibodies, and other proteins. It is collected from healthy, voluntary donors through a process called plasmapheresis. Plasma is regularly collected to produce therapies to treat people with many types of disorders, including immunodeficiency, hemophilia and trauma, such as burns or shock.</p>
             </div>
           </div>
         </div>
@@ -311,12 +315,18 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">&#9662;&nbsp;Which patients are eligible to receive convalescent plasma?</a>
             </h4>
           </div>
           <div id="collapse4" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p><ul>
+            <li>They are 18+ years of age</li>
+            <li>They have laboratory-confirmed diagnosis of infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the virus that causes COVID-19.</li>
+            <li>They are admitted to an acute care facility for the treatment of COVID-19 complications.</li>
+            <li>They have severe or life-threatening COVID-19, or judged by the treating doctor to be at high risk of progression to severe or life-threatening disease.</li>
+            <li>There is an informed consent provided by the patient or the health care proxy.</li>
+          </ul></p>
             </div>
           </div>
         </div>
@@ -324,12 +334,18 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">&#9662;&nbsp;What is severe COVID-19?</a>
             </h4>
           </div>
           <div id="collapse5" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p><ul>
+            <li>Shortness of breath (dyspnea)</li>
+            <li>Respiratory frequency ≥ 30/min</li>
+            <li>Blood oxygen saturation ≤ 93%</li>
+            <li>Partial pressure of arterial oxygen to fraction of inspired oxygen ratio &lt; 300</li>
+            <li>Lung infiltrates &gt; 50% within 24 to 48 hours</li>
+          </ul></p>
             </div>
           </div>
         </div>
@@ -337,12 +353,16 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">&#9662;&nbsp;What is life threatening COVID-19?</a>
             </h4>
           </div>
           <div id="collapse6" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p><ul>
+            <li>Respiratory failure</li>
+            <li>Septic shock</li>
+            <li>Multiple organ dysfunction or failure</li>
+          </ul></p>
             </div>
           </div>
         </div>
@@ -350,12 +370,21 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">&#9662;&nbsp;Who can donate convalescent plasma?</a>
             </h4>
           </div>
           <div id="collapse7" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p><ul>
+            <li>Plasma donors should be at least 18 years old, but less than 65 years old.</li>
+            <li>Plasma donors should have tested positive for COVID 19</li>
+            <li>Plasma donors should have recovered from symptoms of COVID like fever, cough, cold, breathing difficulties at least 14 days prior to donating their plasma.</li>
+            <li>Plasma donors should test non-reactive for transmissible viruses including HIV and Hepatitis</li>
+            <li>Plasma donors should test negative for endemic infectious diseases like Tuberculosis or Malaria</li>
+            <li>Plasma donors should not have ever been pregnant.</li>
+            <li>Individuals must have had a prior diagnosis of COVID-19 documented by a laboratory test and meet other donor criteria.</li>
+            <li>A negative lab test for active COVID-19 disease is not necessary to qualify for donation.</li>
+          </ul></p>
             </div>
           </div>
         </div>
@@ -363,12 +392,12 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">&#9662;&nbsp;What type of medical screening and testing is done?</a>
             </h4>
           </div>
           <div id="collapse8" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>You must have a pre-donation medical examination which includes answering medical history questions, tests for viruses such as HIV and Hepatitis and evaluating your hemoglobin levels.</p>
             </div>
           </div>
         </div>
@@ -376,12 +405,12 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">&#9662;&nbsp;Is plasma donation painful?</a>
             </h4>
           </div>
           <div id="collapse9" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>Most people compare the feeling of the needle to a mild bee sting or pinprick.</p>
             </div>
           </div>
         </div>
@@ -389,12 +418,12 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">&#9662;&nbsp;How long does it take to donate plasma?</a>
             </h4>
           </div>
           <div id="collapse10" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>The process usually takes around 30- 45 minutes.</p>
             </div>
           </div>
         </div>
@@ -402,12 +431,12 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">&#9662;&nbsp;How much plasma can I donate?</a>
             </h4>
           </div>
           <div id="collapse11" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>You can donate 500ml (1 pint) of blood</p>
             </div>
           </div>
         </div>
@@ -415,12 +444,12 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">&#9662;&nbsp;How much plasma does one patient need?</a>
             </h4>
           </div>
           <div id="collapse12" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>Each patient requires 200 ml of plasma.</p>
             </div>
           </div>
         </div>
@@ -428,12 +457,12 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">&#9662;&nbsp;For how long should one abstain from alcohol before donating plasma?</a>
             </h4>
           </div>
           <div id="collapse13" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>It’s advised to refrain from alcohol consumption 24-48 hours before plasma donation.</p>
             </div>
           </div>
         </div>
@@ -441,18 +470,18 @@ Author URL: http://w3layouts.com
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">&#9662;&nbsp;Are there any risks to my health?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">&#9662;&nbsp;Why can’t women who have been pregnant donate plasma?</a>
             </h4>
           </div>
           <div id="collapse14" class="panel-collapse collapse in">
             <div class="panel-body">
-              <p>People donate plasma every day. Your plasma will be collected by trained medical professionals, in a sterile environment. Donating plasma is a safe process. Most healthy adults can  donate blood and plasma with no side effects. Some people may have minor side effects like dehydration, fatigue or dizziness. We will screen the Donors to collecting plasma to make sure  they are good candidates.</p>
+              <p>A baby contains genetic material from both the mother and the father. So, when a woman gets pregnant, she develops antibodies against the father’s genetic material [human leukocyte antigen]. This HLA antibody can lead to a transfusion related complication called Transfusion related acute lung injury (TRALI). Covid-19 patients already have compromised lungs, plasma with HLA antibody might increase their chances of lung damage.</p>
             </div>
           </div>
         </div>
         <hr>
       </div>
-    </div> -->
+    </div>
   </div>
 </section>
 <!-- //Contact section -->
@@ -611,7 +640,10 @@ Author URL: http://w3layouts.com
   <!-- disable body scroll which navbar is in active -->
 
     <script src="assets/js/bootstrap.min.js"></script>
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     </body>
 
     </html>
